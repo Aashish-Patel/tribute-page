@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+}
+#banner img{
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   width: 1100px;
+}
+#tagline{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    margin: 20px 30px;
+    text-transform: capitalize;
+}
+#content{
+    width: 800px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.event-date{
+    width: 100px;
+    height: 7px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    clear: left;
+    border-top: 2px solid gray;
+    padding: 8px;
+    line-height: 25px;
+}
+.event-des{
+    float: left;
+    width: 650px;
+    clear: right;
+    border-top: 2px solid grey;
+    font-size: 16px;
+    padding: 8px;
+    /* font-weight: ; */
+    line-height: 15px;
+    background-color: whitesmoke;
+}
+#side-content {
+    height: 700px;
+    width: 290px;
+    background-color: white;
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 700px;
+    overflow: hidden;
+    margin: 0;
+}
+#second-image {
+    width: 250px;
+    height: 200px;
+    float: right;
+    
+}
+.info {
+    font-size: 90%;
+    font-family: 'Dosis' , sans-serif;
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: white;
+}
+.info td {
+    vertical-align: top;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 0.2em;
+}
+#nutshell {
+    font-family: 'Lato' , sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+#footer {
+    background-color:#ececec;
+    height: 200px;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 24px;
+    padding-left: 150px;
+}
+a{
+    color:dodgerblue;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
